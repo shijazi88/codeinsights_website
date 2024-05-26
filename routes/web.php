@@ -35,3 +35,7 @@ Route::get('language/{locale}', function ($locale) {
 Route::get('/policy', function () {    
     return view('policy');
 })->name('policy');
+
+Route::get('/test', function () {
+    return view('home');
+})->name('home');
