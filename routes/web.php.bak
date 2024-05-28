@@ -41,7 +41,7 @@ Route::get('/product/{name}', function ($name) {
         case 'Banan Plus Payroll':
             $content = 'The Banan Plus system organizes the process of staff attendance, departure, absence, leave to monitor working time and extract reports important to the employer designed to increase the efficiency of work and take optimal advantage of human resources available at the facility. The system is easily connected to fingerprint devices that are used at the gates to control the process of entry and exit, maintain working time, and record the different events. The system easily manages everything related to your staff, such as your employees’ personal data, salaries, record, absence, overtime, advances, and rewards. In addition, the system encompasses a number of options that comply with most facilities in terms of the calculation of salaries, leaves, and insurances.';
             $title = "Personnel Management System (Banan Plus) hero banner";
-            $image_url = "../images/Banan-Plus-Payroll.jpg";
+            $image_url = "../images/Banan-Plus-Payroll.jpg.png";
             break;
         case 'Fixed Assets Management':
             $content = 'This system archives all the data of an asset and records the movement of the asset between sites and staff. It issues a pseudo or hypothetical deprecation for each period of the fiscal year according to the configuration of the system administrator in order to assist the company in following up with the assets and the expenses of deprecation per each asset separately.';
