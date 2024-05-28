@@ -1,0 +1,150 @@
+
+.icon_box {
+	position: relative;
+	padding: 10px 0
+}
+.icon_box.has_border:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 100%;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	position: absolute;
+	right: -2.4%;
+	top: 0
+}
+.icon_box a {
+	display: block
+}
+.icon_box a:hover {
+	text-decoration: none
+}
+.icon_box .icon_wrapper {
+	width: 110px;
+	height: 110px;
+	text-align: center;
+	line-height: 110px;
+	font-size: 50px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 15px;
+	border-width: 8px;
+	border-style: solid;
+	display: block;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	background-image: url(../images/stripes/stripes_3_b.png)
+}
+.icon_box .icon_wrapper i {
+	z-index: 2;
+	position: relative
+}
+.icon_box .icon_wrapper:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-width: 1px;
+	border-style: solid;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+.icon_box .icon_wrapper {
+	background-color: #fff;
+	-webkit-box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, .08);
+	box-shadow: inset 0 0 7px 0 rgba(0, 0, 0, .08)
+}
+.icon_box .image_wrapper {
+	text-align: center;
+	margin-bottom: 15px
+}
+.icon_box .desc_wrapper {
+	text-align: center
+}
+/* Icon postion left */
+
+.icon_box.icon_position_left {
+	min-height: 126px;
+	padding-left: 145px
+}
+.icon_box.icon_position_left .icon_wrapper {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	margin-bottom: 0
+}
+.icon_box.icon_position_left .desc_wrapper {
+	text-align: left;
+	padding-top: 10px
+}
+.icon_box.icon_position_left .image_wrapper {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	margin-bottom: 0;
+	width: 126px;
+	height: 126px;
+	overflow: hidden
+}
+.style-simple .icon_box .image_wrapper, .style-simple .icon_box .icon_wrapper {
+	padding-top: 5px;
+	margin-bottom: 25px
+}
+.style-simple .icon_box .icon_wrapper {
+	font-size: 80px;
+	background-color: transparent;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, .0);
+	border-width: 0;
+	background-image: none;
+	-webkit-transform: scale(1)!important;
+	-moz-transform: scale(1)!important;
+	-ms-transform: scale(1)!important;
+	-o-transform: scale(1)!important;
+	transform: scale(1)!important
+}
+.style-simple .icon_box .icon_wrapper:before {
+	display: none
+}
+.style-simple .icon_box .icon_wrapper i {
+	position: relative;
+	top: 0
+}
+.style-simple .icon_box .image_wrapper img {
+	position: relative;
+	top: 0
+}
+.style-simple .icon_box .desc_wrapper .title {
+	margin-bottom: 20px
+}
+.style-simple .icon_box .desc_wrapper .title:before {
+	content: "";
+	display: block;
+	width: 0;
+	margin: 0 auto;
+	height: 2px;
+	top: -15px;
+	position: relative;
+	background-color: #ccc
+}
+.style-simple .icon_box:hover .icon_wrapper i {
+	top: -5px
+}
+.style-simple .icon_box:hover .image_wrapper img {
+	top: -5px
+}
+.style-simple .icon_box:hover .desc_wrapper .title:before {
+	width: 100px
+}
+.style-simple .icon_box .icon_wrapper i, .style-simple .icon_box .image_wrapper img, .style-simple .icon_box .desc_wrapper .title:before {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
