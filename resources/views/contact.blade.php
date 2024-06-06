@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('images/agency4-home-splash.jpg');background-repeat:no-repeat; background-size:cover;background-position:center">
+<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('images/slider-image.jpg');background-repeat:no-repeat; background-size:cover;background-position:center -367px;">
 	<div class="container">
 		<div class="row" style="padding:30px 0 0 12%">
 			<div class="col-12">
@@ -8,7 +8,7 @@
 					<span style="color: #fff;">Drop Us A Line</span>
 				</h2>
 				<hr class="no_line" style="margin: 0 auto 15px auto">
-				<p style="color:#fff;" class="text-center"> 
+				<p style="color:#fff; font-size: 20px;" class="text-center"> 
 					Contact us about anything related to our company or services. We'll get back to you as soon as possible.
 				</p>
 			</div>
@@ -38,7 +38,7 @@
 					<p style="color:#4962FD;font-weight: bold;"> ffice </p>
 					<p> 
 						<span style="color: #4e579b;">
-							Masa Business - Telecom and Information Technology Building No.3348
+							MASA Business - Telecom and Information Technology Building No.3348
 							Makkah Street Al Dana District
 							PO.Box 35514 - 9174
 						</span> 

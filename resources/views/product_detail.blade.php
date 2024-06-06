@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('../images/agency4-home-splash.jpg');background-repeat:no-repeat; background-size:cover;background-position:center">
+<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('../images/slider-image');background-repeat:no-repeat; background-size:cover;background-position:center">
 	<div class="">
 		<div class="row" style="padding:30px 16%">
 			<div class="col-12">

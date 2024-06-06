@@ -2,7 +2,7 @@
 @section('header_slider') 
 @endsection 
 @section('content') 
-<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('images/agency4-home-splash.jpg');background-repeat:no-repeat; background-size:cover;background-position:center">
+<div class="section mcb-section full-width mt-80" style="padding-top:125px;padding-bottom:125px;background-image:url('images/slider-image.jpg');background-repeat:no-repeat; background-size:cover;background-position:center -367px;">
   <div class="row" style="padding:30px 16%">
     <div class="col-12">
       <h2>
@@ -28,7 +28,7 @@
             <span style="color: #4989fd;">About Us</span>
           </h2>
           <hr class="no_line" style="margin: 0 auto 20px auto">
-          <p style="color: #626262;"> Masa provides information technology and management consulting services. The Company offers systems integration and general information technology counselling services. Masa serves the government, ﬁnancial services, health, insurance and retail sectors. Masa offers a full range of advisory services, strategic business consulting, software development, systems integration, mobile applications and ecommerce. With a team of experienced and talented professionals, Masa has developed deep expertise in its targeted industries and has earned a reputation for delivering superior and reliable solutions that strengthen organizations’ operational performance. Our culture at Masa is based on deep and unwavering commitment to our clients’ needs. We strive to build long-term, trusting and loyal relationships with our clients and deliver tailored solutions and services to speciﬁcally ﬁt the needs of each client. </p>
+          <p style="color: #626262;"> MASA provides information technology and management consulting services. The Company offers systems integration and general information technology counselling services. MASA serves the government, ﬁnancial services, health, insurance and retail sectors. MASA offers a full range of advisory services, strategic business consulting, software development, systems integration, mobile applications and ecommerce. With a team of experienced and talented professionals, MASA has developed deep expertise in its targeted industries and has earned a reputation for delivering superior and reliable solutions that strengthen organizations’ operational performance. Our culture at MASA is based on deep and unwavering commitment to our clients’ needs. We strive to build long-term, trusting and loyal relationships with our clients and deliver tailored solutions and services to speciﬁcally ﬁt the needs of each client. </p>
           <hr class="no_line" style="margin: 0 auto 20px auto">
           <hr class="no_line" style="margin: 0 auto 40px auto">
           <a class="button button_size_2 button_dark" href="{{route('about_us')}}" style="color:#fff;">
@@ -62,7 +62,7 @@
         <p style="color:#fff"> Software Development and implementation </p>
         <p>
           <span style="color: #4e579b;">
-          	Masa provides information technology and management consulting services. The Company offers systems integration and general information technology counselling services. Masa serves the government, ﬁnancial services, health, insurance and retail sectors.
+          	MASA provides information technology and management consulting services. The Company offers systems integration and general information technology counselling services. MASA serves the government, ﬁnancial services, health, insurance and retail sectors.
           </span>
         </p>
       </div>
@@ -86,7 +86,7 @@
         <p style="color:#fff"> Technical Consulting </p>
         <p>
           <span style="color: #4e579b;">
-          	Masa provides advanced services in technical consulting to enable its customers adopt the latest and best software applications and IT solutions that keep pace with accelerated growth and progress in the ﬁeld of information technology, utilizing its featured experiences in cloud computing and management information systems (MIS).
+          	MASA provides advanced services in technical consulting to enable its customers adopt the latest and best software applications and IT solutions that keep pace with accelerated growth and progress in the ﬁeld of information technology, utilizing its featured experiences in cloud computing and management information systems (MIS).
           </span>
         </p>
       </div>
@@ -98,7 +98,7 @@
         <p style="color:#fff"> Mobile App Development</p>
         <p>
           <span style="color: #4e579b;">
-          	Mobile technology is disrupting industry value chain across verticals. Nowadays, every business is being transformed to be online to get a competitive business advantage in its market. This is achieved through proper utilization of mobile apps. Masa has extensive hands-on experience in building and deploying cutting-edge mobile apps.
+          	Mobile technology is disrupting industry value chain across verticals. Nowadays, every business is being transformed to be online to get a competitive business advantage in its market. This is achieved through proper utilization of mobile apps. MASA has extensive hands-on experience in building and deploying cutting-edge mobile apps.
           </span>
         </p>
       </div>
@@ -110,7 +110,7 @@
         <p style="color:#fff"> Security Systems and Monitoring </p>
         <p>
           <span style="color: #4e579b;">
-          	In line with the increasing demand and security awareness in various walks of life, Masa provides innovative solutions in building security systems with high quality and reliability
+          	In line with the increasing demand and security awareness in various walks of life, MASA provides innovative solutions in building security systems with high quality and reliability
           </span>
         </p>
       </div>
